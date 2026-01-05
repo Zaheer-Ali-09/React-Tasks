@@ -1,48 +1,8 @@
-import { useState } from "react"
+// import { useState } from "react"
+import '../../App.css'
+function App({ name, rollno, Batch, FavoriteLanguage }) {
 
-function App() {
 
-    let data = [
-        {
-            id: 1,
-            name: "Zaheer Ali",
-            RoollNo: 390102,
-            Batch: "2024",
-            FavoriteLanguage: "Javascript"
-        },
-        {
-            id: 2,
-            name: "Mubeen",
-            RoollNo: 127027,
-            Batch: "2024",
-            FavoriteLanguage: "Nodejs"
-        }, {
-            id: 3,
-            name: "Ammad Bhai",
-            RoollNo: 324234,
-            Batch: "2024",
-            FavoriteLanguage: "HTML"
-        }, {
-            id: 4,
-            name: "Hussain",
-            RoollNo: 390102,
-            Batch: "2024",
-            FavoriteLanguage: "Javascript"
-        },
-        {
-            id: 5,
-            name: "Amman",
-            RoollNo: 127027,
-            Batch: "2024",
-            FavoriteLanguage: "Nodejs"
-        }, {
-            id: 6,
-            name: "Sufaiyan",
-            RoollNo: 324234,
-            Batch: "2024",
-            FavoriteLanguage: "HTML"
-        }
-    ]
     return (
         <>
             {/* <div className="w-full w-[100vh] flex justify-center items-center gap-20">
@@ -67,11 +27,18 @@ function App() {
                     <h4>Batch : 16</h4>
                 </form>
             </div> */}
-            {data.map((x, y) => {
-                
-            })}
+            <div className='flex w-full'>
+                <div className="border-1 w-[300px]">
+                    <h2>Name : {name}</h2>
+                    <h2>RollNo : {rollno}</h2>
+                    <h2>Batch : {Batch}</h2>
+                    <h2>Language : {FavoriteLanguage}</h2>
+                </div>
+            </div>
         </>
     )
 }
 
 export default App
+
+
