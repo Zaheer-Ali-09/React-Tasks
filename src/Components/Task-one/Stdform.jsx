@@ -22,6 +22,25 @@ function App() {
             RoollNo: 324234,
             Batch: "2024",
             FavoriteLanguage: "HTML"
+        }, {
+            id: 4,
+            name: "Hussain",
+            RoollNo: 390102,
+            Batch: "2024",
+            FavoriteLanguage: "Javascript"
+        },
+        {
+            id: 5,
+            name: "Amman",
+            RoollNo: 127027,
+            Batch: "2024",
+            FavoriteLanguage: "Nodejs"
+        }, {
+            id: 6,
+            name: "Sufaiyan",
+            RoollNo: 324234,
+            Batch: "2024",
+            FavoriteLanguage: "HTML"
         }
     ]
     return (
