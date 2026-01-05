@@ -45,7 +45,7 @@ function App() {
     ]
     return (
         <>
-            <div className="w-full w-[100vh] flex justify-center items-center gap-20">
+            {/* <div className="w-full w-[100vh] flex justify-center items-center gap-20">
                 <form action="" className="w-[300px] border-1 h-[300px] rounded-xl py-10 flex flex-col gap-8 text-center">
                     <h1>SMIT STUDENT</h1>
                     <p>Saylani Mass IT Training Program</p>
@@ -66,8 +66,10 @@ function App() {
                     <h4>Student RollNo : 390102</h4>
                     <h4>Batch : 16</h4>
                 </form>
-
-            </div>
+            </div> */}
+            {data.map((x, y) => {
+                
+            })}
         </>
     )
 }
