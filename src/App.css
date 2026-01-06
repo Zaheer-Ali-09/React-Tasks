@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+.light {
+  background-color: #ffffff;
+  color: #000;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.dark {
+  background-color: #121212;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  width: 300px;
+  padding: 12px;
+  border-radius: 6px;
+}
+
 
 /* #root {
   max-width: 1280px;
